@@ -27,7 +27,6 @@ function solve()
             j += 1
         end
 
-        @show i, j
         outcome = max(outcome, j-i)
         i = j+1
     end
